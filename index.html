@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>Portfolio</title>
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css" />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  <body>
+    <div class="navbar">
+        <ul class="navbar-main-container">
+          <li class="navbar-item"><a href="#">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="aboutmediv">
+        <div>
+          <p class="namebanner">I'm Arun Karthick</p>
+          <div class="socialLinks">
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+            <i class="fa-brands fa-twitter fa-3x"></i>
+            <i class="fa-brands fa-github fa-3x"></i>
+          </div>
+        </div>
+        <img class="profilephoto" src="sample.jpg"></img>
+    </div>
+    <div class="skillsdiv">
+        <p class="aboutmebanner">About Me</p>
+        <p class="aboutmecontent">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Diam maecenas sed enim ut sem <br>viverra. Convallis a cras semper auctor neque vitae tempus quam pellentesque. Luctus accumsan to
+          rtor posuere ac ut consequat semper viverra nam. Imperdiet <br>sed euismod nisi porta lorem mollis aliquam ut porttitor. Non conse
+          ctetur a erat nam at lectus urna duis convallis. Risus ultricies tristique nulla aliquet enim torto<br>r at auctor urna. Sodales ut 
+          etiam sit amet. In est ante in nibh mauris cursus mattis molestie a. At quis risus sed vulputate odio ut enim blandit vo<br>lutpat.
+          Eros donec ac odio tempor orci dapibus ultrices. Porttitor leo a diam sollicitudin tempor id eu nisl. Et sollicitudin ac orci ph
+          asellus egesta<br>s tellus rutrum tellus. Mauris augue neque gravida in fermentum. Sit amet tellus cras adipiscing enim eu. Dui id 
+          ornare arcu odio ut sem nulla pharetra d<br>iam. Odio eu feugiat pretium nibh ipsum. Volutpat commodo sed egestas egestas fringill
+          a phasellus faucibus scelerisque eleifend.</p>
+        <div class="resumeDiv">
+            <p class ="downloadResume">Download Resume</p>
+        </div>
+    </div>
+    <div class="skillsdiv" id="skills">
+      <p class="skillsbanner">Skills</p>
+      <div class="skillset">
+        <img class="skill-item" src="assets/c.svg"/>
+        <img class="skill-item" src="assets/cpp.svg"/>
+        <img class="skill-item" src="assets/python.svg"/>
+        <img class="skill-item" src="assets/java.svg"/>
+        <img class="skill-item" src="assets/flutter.svg"/>
+        <img class="skill-item" src="assets/dart.svg"/>
+        <img class="skill-item" src="assets/firebase.svg"/>
+        <img class="skill-item" src="assets/js.svg"/>
+        <img class="skill-item" src="assets/nodejs.svg"/>
+        <img class="skill-item" src="assets/expressjs.svg"/>
+        <img class="skill-item" src="assets/mongodb.svg"/>
+      </div>
+    </div>
+    <div class="projectsdiv" id="projects">
+      <p class="projectsbanner">Projects</p>
+      <div class="myprojects">
+        <div class="card">
+            <h3>OnYourMarks</h3>
+            <p class="projectcontent">It is an app for school students and teachers. Using this app teachers can update their student’s marks and exams, Students can view their marks and upcoming exams. There is a web app for admin to monitor all the students, teachers and exams. I used Flutter, NodeJS and MongoDB.</p>
+            <img id="project1" class="githubLink" src="assets/github.png">
+          </div>
+        <div class="card">
+          <h3>BlogspotBIT</h3>
+          <p class="projectcontent">It is a blogging app made for my college students and teachers. Using this app the users can post blogs. In this app the users can like, share, bookmark and report a blog. I used Flutter for frontend, NodeJS and MongoDB for backend.</p>
+          <img id="project2" class="githubLink" src="assets/github.png">
+        </div>
+        <div class="card">
+          <h3>TailorApp</h3>
+          <p class="projectcontent">
+            It is an app for tailors to note their orders, due dates and amount
+            to be collected.
+            I used Firebase for Backend , Cloud storage and Authentication
+            </p>
+          <img id="project3" class="githubLink" src="assets/github.png">
+          <img id="project3link" class="githubLink" src="assets/link.png">
+        </div>
+      </div>
+        
+    </div> 
+    
+    <div class="contactdiv">
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+<!-- 
+  <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide">
+            <h2>OnYourMarks</h2>
+          </div>
+          <div class="card swiper-slide">
+            Project 2
+          </div>
+          <div class="card swiper-slide">
+            Project 3
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+ -->
